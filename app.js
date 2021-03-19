@@ -82,21 +82,43 @@ var screenXL = window.matchMedia("(min-width:1092px)");
 // ! ************ FUNCTIONS  ********
 
 // CURSOR CIRCLE INTERACTION
-jQuery(document).ready(function(e) {
-  var mouseX = 0, mouseY = 0;
-  var xp = 0, yp = 0;
-  $(document).mousemove(function(e){
-    mouseX = e.pageX - 10;
-    mouseY = e.pageY - 10; 
-  });
-  setInterval(function(){
-    xp += ((mouseX - xp)/6);
-    yp += ((mouseY - yp)/6);
-    $("#circleCursor").css({
-      left: xp +'px',
-      top: yp +'px'});
-  }, 10);
+// jQuery(document).ready(function(e) {
+//   var mouseX = 0, mouseY = 0;
+//   var xp = 0, yp = 0;
+//   $(document).mousemove(function(e){
+//     mouseX = e.pageX - 10;
+//     mouseY = e.pageY - 10; 
+//   });
+//   setInterval(function(){
+//     xp += ((mouseX - xp)/6);
+//     yp += ((mouseY - yp)/6);
+//     $("#circleCursor").css({
+//       left: xp +'px',
+//       top: yp +'px'});
+//   }, 1);
+// });
+
+     // create instance of kinet with custom settings
+var kinet = new Kinet({
+  acceleration: 0.06,
+  friction: 0.20,
+  names: ["x", "y"],
 });
+
+// select circle element
+var circle = document.getElementById('circle');
+
+// set handler on kinet tick event
+kinet.on('tick', function(instances) {
+  circle.style.transform = `translate3d(${ (instances.x.current) }px, ${ (instances.y.current) }px, 0) rotateX(${ (instances.x.velocity/2) }deg) rotateY(${ (instances.y.velocity/2) }deg)`;
+});
+
+// call kinet animate method on mousemove
+document.addEventListener('mousemove', function (event) {
+  kinet.animate('x', event.clientX - window.innerWidth/2);
+  kinet.animate('y', event.clientY - window.innerHeight/2);
+});
+
 
 // ANIMATIONS
 function resetsAmpAnimation(){
@@ -606,11 +628,11 @@ function displaysTexts(a,b,c,d,e,album,size,pos,song){
 function defaultMusicGallery(album){
 
   if(screenS.matches ){
-    bigBox.style.backgroundPosition='center';
+    bigBox.style.backgroundPosition='center 26%';
   } else{
     bigBox.style.backgroundPosition='top';
   } 
-  displaysTexts('none','none','none','block','none',album,'cover','center','Headlights');
+  displaysTexts('none','none','none','block','none',album,'cover','center 26%','Headlights');
 }
 
 function navUnderline(elmOn,elm1,elm2,elm3){
@@ -806,7 +828,7 @@ document.getElementById('topLeftBox').addEventListener('click',function(){
     if(screenS.matches){
       bigBox.style.background=`url('media/${y}-clean.jpg')`;
       bigBox.style.backgroundSize='cover';
-      bigBox.style.backgroundPosition='bottom';
+      bigBox.style.backgroundPosition='center';
     }else{
       bigBox.style.backgroundPosition='bottom';
     }
@@ -820,7 +842,7 @@ document.getElementById('topRightBox').addEventListener('click',function(){
   displaysTexts('none','none','none','none','block',y,'cover','top','song-healing');
   if(screenS.matches ){
     bigBox.style.background=`url('media/${y}-clean.jpg')`;
-    bigBox.style.backgroundPosition='bottom';
+    bigBox.style.backgroundPosition='center 69%';
     bigBox.style.backgroundSize='cover';
   } 
   checkScrollHeight();
@@ -978,7 +1000,7 @@ screenXL.addListener(function(){
   placeBigScreens(screenXL);
 });
 
-var circleCursor = document.getElementById('circleCursor');
+var circleCursor = document.getElementById('circle');
 galleryAlbums.addEventListener("mouseover", function() {
   circleCursor.style.backgroundColor = "yellow";
   circleCursor.style.borderColor = "yellow";
