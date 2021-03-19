@@ -8,14 +8,14 @@ html, body {
   letter-spacing:3px;
   box-sizing: border-box;
   background-color: #eadac6 ;
-  cursor: none;
+  /* cursor: none; */
 }
 body a{
-  cursor: none;
+  /* cursor: none; */
 
 }
 body input, body textarea{
-  cursor: none;
+  /* cursor: none; */
 
 }
 ul{
@@ -32,17 +32,34 @@ a{
 
 /* CURSOR */
 .circle-cursor {
-  position: fixed;
+  /* position: fixed;
   background-color:rgba(0, 0, 0, 0.712);
   z-index: 10;
   border: solid 1px rgba(0, 0, 0, 0.336);
   width: 20px; 
   height: 20px; 
-  border-radius: 50%;  
+  border-radius: 50%;   */
   /* FIXES THE PROBLEM ON HOVER OPACITY TRANSFORM */
-  pointer-events: none;
-  z-index: 999;
+  /* pointer-events: none;
+  z-index: 999; */
 }
+
+.circle {
+  background-color:rgba(0, 0, 0, 0.712);
+  border: solid 1px rgba(0, 0, 0, 0.336);
+  width: 20px; 
+  height: 20px; 
+  border-radius: 50%;  
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -20px 0 0 -20px;
+        pointer-events: none;
+        /* mix-blend-mode: multiply; */
+        z-index: 10;
+      }
+
+
 
 .main-wrapper{
   overflow-x: hidden;
@@ -344,7 +361,7 @@ padding-right: 30px;
   opacity: 0.7;
 }
 /* COLOR ICONS  */
-a { color: inherit; } 
+/* a { color: inherit; }  */
 
 /* ! MAIN CONTENT */
 .main-content{
@@ -403,7 +420,7 @@ a { color: inherit; }
   grid-row: span 2;
   background: url('media/album-flora.jpg');
   background-size: cover;
-  background-position: top;
+  background-position: top ;
   /* cursor: pointer; */
 }
 #topLeftBox{
@@ -422,6 +439,7 @@ a { color: inherit; }
   background-position: bottom;
   /* cursor: pointer; */
 }
+
 #bottomLeftBox{
   grid-column: span 1;
   grid-row: span 1;
@@ -757,7 +775,7 @@ textarea{
   html, body {
     cursor:auto;
   }
-  .circle-cursor {
+  .circle {
     display: none;
   }
 
@@ -927,6 +945,7 @@ textarea{
   }
 }
 @media only screen and (max-width: 380px) {
+
   .main-wrapper{ 
     grid-template-columns: 1fr;  
     grid-template-rows: 180px 500px auto 100px;
@@ -988,6 +1007,9 @@ textarea{
   .title-pic-video{
     padding-right: 0px;
   }
+  .next-button {
+    top: 29%;
+}
 
   /* CONTACT SECTION */
   .stone-container{
