@@ -726,7 +726,7 @@ function clickVideo(){
     '90px minmax(550px, calc(100vh - 90px))',
     'auto', 'auto','center','flex-start');
   // Change the source image
-  video.src = 'media/video-flora.mp4';
+  video.src = 'media/night.mp4';
   video.poster = 'media/imgVideo2.jpg';
   pauseAudio(audioStone);
   pauseAudio(audioAmpPhone);
@@ -795,7 +795,7 @@ document.getElementById('contact').addEventListener('click', clickContact);
 document.getElementById('topLeftBox').addEventListener('click',function(){
   const y= this.classList.item(0);
   // SETS THE RIGHT LYRICS FOR THIS ALBUM
-  displaysTexts('none','none','block','none','none',y,'cover','bottom','leave');
+  displaysTexts('none','none','block','none','none',y,'cover','bottom','night');
   // SETS THE RIGHT PIC AND POSITION ON THE BIG SQUARE
   if(screenM.matches ){
     bigBox.style.backgroundPosition='bottom';
@@ -851,7 +851,7 @@ plate.addEventListener('click', function(){
 });
 iconArrowRight.addEventListener('click', function(){
   csources = [
-    'media/video-flora.mp4',
+    'media/night.mp4',
     'media/video-let.mp4',
     'media/video-live2.mp4'
   ];
