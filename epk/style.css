@@ -4,12 +4,12 @@
     padding: 0;
     user-select: none;
     box-sizing: border-box;
-    color: black;                                *COLOR MAIN TEXT*
-    font-family: 'Poppins', sans-serif;         *FONT SWIRL TOP*
+    color: black;                               /*COLOR MAIN TEXT*/
+    font-family: 'Poppins', sans-serif;         /*FONT SWIRL TOP*/
 }
 
 body {
-    background: #000000;                        *BANNER BG*
+    background: #000000;                        /*BANNER BG*/
 }
 
 h3 {
@@ -35,7 +35,7 @@ section {
     -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
-    background-size: cover;                          *IMG BG*
+    background-size: cover;                          /*IMG BG*/
     color: #000000;                                 
     clip-path: circle(0px at center center);
     /* clip-path: circle(300px at center center); */
@@ -49,7 +49,7 @@ section {
     align-items: center;
     margin-top: 200vh;
     padding: 100px;
-    background: #b4b7e1;                         *[BACKGROUND MAIN*
+    background: #b4b7e1;                         /*[ACKGROUND MAIN*/
     color: #000000;
 }
 
