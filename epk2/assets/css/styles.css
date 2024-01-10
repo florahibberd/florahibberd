@@ -247,9 +247,9 @@ img {
 .home__title {
   position: absolute;
   top: -4rem;
-  left: 1rem;
+  left: -15rem;
   line-height: 6rem;
-  font-size: var(--h3-font-size);
+  font-size: var(--big-font-size);
   background: var(--text-gradient);
   -webkit-background-clip: text;
   background-clip: text;
