@@ -230,9 +230,9 @@ img {
 
 /*=============== HOME ===============*/
 .home__img {
-  width: 250px;
+  width: 600px;
   position: absolute;
-  top: -16rem;
+  top: 0rem;
   right: 1.5rem;
 }
 
