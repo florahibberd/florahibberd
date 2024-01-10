@@ -743,7 +743,7 @@ img {
   }
   .home__img {
     width: 700px;
-    top: 0rem;
+    top: -1.5rem;
   }
   .home__title {
     top: -5rem;
