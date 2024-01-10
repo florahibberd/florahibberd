@@ -245,17 +245,17 @@ img {
 
 .home__title {
   position: absolute;
-  top: 10rem;
-  left: 1rem;
+  top: -4rem;
+  left: -211rem;
   line-height: 6rem;
-  font-size: var(--biggest-font-size);
+  font-size: var(--h3-font-size);
   background: var(--text-gradient);
   -webkit-background-clip: text;
   background-clip: text;
 }
 
 .home__subtitle {
-  font-size: var(--big-font-size);
+  font-size: var(--biggest-font-size);
   margin-bottom: var(--mb-2-5);
   top: 20rem;
 }
