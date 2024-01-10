@@ -581,8 +581,8 @@ img {
     font-size: var(--big-font-size);
   }
   .home__img {
-    width: 200px;
-    top: -13rem;
+    width: 600px;
+    top: 0rem;
   }
   .home__title {
     top: -4rem;
@@ -744,8 +744,8 @@ img {
     margin-right: auto;
   }
   .home__img {
-    width: 300px;
-    top: -15rem;
+    width: 700px;
+    top: 0rem;
   }
   .home__title {
     top: -5rem;
