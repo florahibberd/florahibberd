@@ -249,15 +249,14 @@ img {
   top: -4rem;
   left: 1rem;
   line-height: 6rem;
-  font-size: var(--biggest-font-size);
+  font-size: var(--h3-font-size);
   background: var(--text-gradient);
-  color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
 }
 
 .home__subtitle {
-  font-size: var(--big-font-size);
+  font-size: var(--biggest-font-size);
   margin-bottom: var(--mb-2-5);
 }
 
