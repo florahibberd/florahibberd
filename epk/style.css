@@ -53,6 +53,14 @@ section {
     margin-bottom: 20px;
 }
 
+    #mondiv
+{
+       background: url(media/bioPic1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .innerText {
     position: fixed;
     top: 50%;
