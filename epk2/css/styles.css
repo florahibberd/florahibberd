@@ -227,10 +227,10 @@ img {
   -webkit-background-clip: text;
   background-clip: text;
 }
-
 /*=============== HOME ===============*/
 .home__img {
   position: absolute;
+  width: 1000px;
   top: 0rem;
   right: 1.5rem;
 }
