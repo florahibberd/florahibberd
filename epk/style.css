@@ -4,12 +4,12 @@
     padding: 0;
     user-select: none;
     box-sizing: border-box;
-    color: grey;                                [COLOR MAIN TEXT]
-    font-family: 'Poppins', sans-serif;         [FONT SWIRL TOP]
+    color: grey;                                *COLOR MAIN TEXT*
+    font-family: 'Poppins', sans-serif;         *FONT SWIRL TOP*
 }
 
 body {
-    background: #000000;                        [BANNER BG]
+    background: #000000;                        *BANNER BG*
 }
 
 h3 {
@@ -45,7 +45,7 @@ section {
     align-items: center;
     margin-top: 200vh;
     padding: 100px;
-    background: #b4b7e1;                         [BACKGROUND MAIN]
+    background: #b4b7e1;                         *[BACKGROUND MAIN*
     color: #000000;
 }
 
