@@ -28,10 +28,10 @@ section {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    background: #fff;
-    color: #000000;
+    background: url('media/swirl-cover.png');
+    background-size: cover;
     clip-path: circle(0px at center center);
     /* clip-path: circle(300px at center center); */
 }
