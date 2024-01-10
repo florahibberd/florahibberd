@@ -760,7 +760,7 @@ img {
     width: 100px;
   }
   .discount__img {
-    width: 350px;
+    width: 100%;
   }
   .footer__container {
     padding-top: 3rem;
