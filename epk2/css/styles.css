@@ -250,7 +250,6 @@ img {
   line-height: 6rem;
   font-size: var(--biggest-font-size);
   background: var(--text-gradient);
-  color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
 }
