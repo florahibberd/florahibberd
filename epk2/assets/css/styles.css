@@ -230,7 +230,7 @@ img {
 
 /*=============== HOME ===============*/
 .home__img {
-  width: 750px;
+  width: 1000px;
   position: absolute;
   top: -16rem;
   right: 1.5rem;
@@ -581,7 +581,7 @@ img {
     font-size: var(--big-font-size);
   }
   .home__img {
-    width: 200px;
+    width: 1000px;
     top: -13rem;
   }
   .home__title {
