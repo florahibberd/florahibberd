@@ -35,7 +35,6 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: #000000;
     clip-path: circle(0px at center center);
     /* clip-path: circle(300px at center center); */
 }
