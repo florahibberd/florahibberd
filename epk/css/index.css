@@ -38,8 +38,6 @@ body, html {
 .bgimg-1 {
     background-image: url("../media/swirl-cover.jpg");
     min-height: 100%;
-    left: 200px;
-    right:200px;
 }
   
 .bgimg-2 {
