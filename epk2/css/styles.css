@@ -391,7 +391,7 @@ img {
 }
 
 .discount__img {
-  width: 300px;
+  width: 100%;
   position: absolute;
   top: 4rem;
   right: -11rem;
