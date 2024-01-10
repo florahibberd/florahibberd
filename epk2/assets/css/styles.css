@@ -623,6 +623,7 @@ img {
     padding-top: 2rem;
   }
   .home__img {
+    width: 1000px
     top: -7rem;
     left: 0;
   }
@@ -689,6 +690,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
   .home__img {
+    width: 1000px
     top: -9rem;
     left: 4rem;
   }
@@ -744,7 +746,7 @@ img {
     margin-right: auto;
   }
   .home__img {
-    width: 300px;
+    width: 1000px;
     top: -15rem;
   }
   .home__title {
