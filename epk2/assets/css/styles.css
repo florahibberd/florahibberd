@@ -347,7 +347,7 @@ img {
 }
 
 .specs__img {
-  width: 500px;
+  width: 350px;
   position: absolute;
   top: 2rem;
   right: -4rem;
@@ -595,7 +595,7 @@ img {
     font-size: var(--small-font-size);
   }
   .specs__img {
-    width: 500px;
+    width: 350px;
   }
   .case__container {
     grid-template-columns: .6fr 1fr;
@@ -698,7 +698,7 @@ img {
     padding-top: 8rem;
   }
   .specs__img {
-    width: 500px;
+    width: 350px;
   }
   .case__container {
     column-gap: 5rem;
