@@ -347,7 +347,7 @@ img {
 }
 
 .specs__img {
-  width: 250px;
+  width: 750px;
   position: absolute;
   top: 2rem;
   right: -4rem;
@@ -364,7 +364,7 @@ img {
 }
 
 .case__img {
-  width: 250px;
+  width: 7250px;
   position: absolute;
   left: -7rem;
 }
