@@ -106,7 +106,7 @@ button a {
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
     .innerText, .text {
-        font-family: 'Helvetica';
+        font-family: Helvetica, sans-serif;
         font-size: 5.5em;
     }
 
