@@ -30,7 +30,7 @@ section {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: url('media/swirl-cover.jpg');
+    background: url(media/swirl-cover.jpg);
     background-size: cover;
     clip-path: circle(0px at center center);
     /* clip-path: circle(300px at center center); */
