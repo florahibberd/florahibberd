@@ -114,7 +114,7 @@ img {
 
 .section__title-gradient {
   background: var(--text-gradient);
-  color: transparent;
+  color: white;
   -webkit-background-clip: text;
   background-clip: text;
 }
