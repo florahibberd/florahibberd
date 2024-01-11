@@ -268,7 +268,8 @@ img {
 
 .home__description {
   margin-bottom: var(--mb-2-5);
-  line-height: var(--text-line-height);
+  /*line-height: var(--text-line-height);*/
+  width: 150%;
 }
 
 .home__price {
