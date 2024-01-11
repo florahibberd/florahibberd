@@ -11,7 +11,7 @@
   --text-color: hsl(var(--hue-color), 4%, 75%);
   --text-color-light: hsl(var(--hue-color), 4%, 65%);
   --white-color: #FFF;
-  --body-color: hsl(var(--hue-color), 4%, 6%);
+  --body-color: #b4b7e1;
   --container-color: hsl(var(--hue-color), 4%, 10%);
   --text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 24%), hsl(var(--hue-color), 4%, 8%));
   --scroll-thumb-color: hsl(var(--hue-color), 4%, 16%);
