@@ -70,7 +70,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
+  background-color: #325A9F;
   color: var(--text-color);
 }
 
