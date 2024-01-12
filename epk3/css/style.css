@@ -377,11 +377,13 @@ padding-right: 30px;
 }
 /* yellow title bio*/
 .title-pic{
-  position: absolute;
-  z-index: 10;
-  margin: 375px 0 0 15vw;
-  padding-right: 450px;
-  transition:all 1.5s ease;
+    position: absolute;
+    z-index: 10;
+    margin: -670px 0 0 15vw;
+    padding-right: 450px;
+    transition: all 1.5s ease;
+    margin-left: 20px;
+    width: 40%;
 }
 .title-yellow-big{
   margin: 0px;
