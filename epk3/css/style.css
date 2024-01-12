@@ -390,11 +390,12 @@ padding-right: 30px;
 }
 /* FloraHibberd*/
 .flora-hibberd{
-  position: absolute;
-  z-index: 10;
-  margin: 375px 0 0 15vw;
-  padding-right: 450px;
-  transition:all 1.5s ease;
+    position: absolute;
+    z-index: 10;
+    margin: -30px 0 0 15vw;
+    padding-right: 450px;
+    transition: all 1.5s ease;
+    width: 60%;
 }
 .flora-hibberd-big{
   margin: 0px;
