@@ -194,10 +194,11 @@ scrollbar-width: none;  /* Firefox */
   font-size: 30px;
 }
 .texts{
-  letter-spacing: 3px;
-  text-align: left;
-  margin-left: 20px;
-  margin-top: 29px;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-top: 29px;
 }
 .texts p{
   margin: 0;
