@@ -743,12 +743,14 @@ textarea{
     position: relative;
   }
   .title-pic{
-    margin: 380px 0 0 10vw;
   }
   .title-pic-gallery{
     margin:410px 0 0 15vw;
+     }
+  .flora-hibberd{
+        margin-bottom: 90px;
   }
-
+ 
   /* MUSIC section */
   .gallery-albums{
     margin: 5vw 0 0 12vw;
@@ -889,7 +891,7 @@ textarea{
     margin-bottom: 40px;
   }
   .title-pic{
-    display: none;
+    margin-top: -600p
   }
 
   /* MUSIC SECTION */
