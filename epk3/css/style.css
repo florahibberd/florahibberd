@@ -679,7 +679,9 @@ textarea{
     max-width: 100%;  
   }
   .title-pic{
-    margin: -200px 0 0 15vw;
+    margin: -601px 0 0 15vw;
+    width: 60%;
+    margin-left: 15px;
   }
 
   /* STONE ILLUSTRATION */
