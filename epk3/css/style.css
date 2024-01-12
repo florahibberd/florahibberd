@@ -548,7 +548,7 @@ padding-right: 30px;
 .buttons button:before{
   display: inline-block;
   font-size: 28px;
-  color: white;
+  color: black;
   -webkit-font-smoothing: antialiased;
 }
 /* CONTROLS ANIMATION */
