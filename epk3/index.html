@@ -15,27 +15,6 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" href="favicon.png" />
   <title>Flora Hibberd</title>
-  
- <div id="bioPicContainerBig" class="bio-pic-container-big">
-        <img id="bioPicBig" class="bio-pic-big" src="media/bioPic1.jpg"  alt="Flora">
-      </div>
-      <div id="bioPicContainerSmall" class="bio-pic-container-small">
-        <img id="bioPicSmall" class="bio-pic-small" src="media/bioPic1.jpg" alt="Flora">
-      </div>
-      <!-- YELLOW PIC -->
-      <div id="titlePic" class="title-pic">
-        <img id='titleBig'class="title-yellow-big" src="media/titleYellow.png">
-      </div>
-     <!-- YELLOW PIC -->
-      <div id="titlePicGallery" class="title-pic-gallery" style="display:none;">
-        <img id='titleBigGallery' class="title-big-gallery" src="media/titleYellow.png">
-      </div>
-      <!-- YELLOW PICS -  SMALL SCREENS -->
-      <div id="titlePicsPhone" class="title-pics-phone">
-        <img id="pic1Phone" class="pic1-phone"src="media/title-yellow1.png" alt="">
-        <img id="pic2Phone" class="pic2-phone" src="media/title-yellow2.png" alt="">
-      </div>
-    </div>
 </head>
 <body>
   <!-- CURSOR ANIMATION -->
@@ -52,7 +31,16 @@
     <!--!SECTION MAIN CONTENT -->
     <div id="mainContent"class="main-content">
       <!--? BIO SECTION -->
-     <p>Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem </p>
+      <div id="bioPicContainerBig" class="bio-pic-container-big">
+        <img id="bioPicBig" class="bio-pic-big" src="media/bioPic1.jpg"  alt="Flora">
+      </div>
+      <div id="bioPicContainerSmall" class="bio-pic-container-small">
+        <img id="bioPicSmall" class="bio-pic-small" src="media/bioPic1.jpg" alt="Flora">
+      </div>
+      <!-- YELLOW PIC -->
+      <div id="titlePic" class="title-pic">
+        <img id='titleBig'class="title-yellow-big" src="media/titleYellow.png">
+      </div>
       <!--? MUSIC SECTION -->
       <div id="galleryAlbums" class="gallery-albums" style="display: none;">
         <div id="bigBox" class="cover-headlights">
@@ -64,6 +52,47 @@
         <div id="bottomLeftBox" class="cover-headlights">
         </div>  
         <div id="bottomRightBox" class="cover-shine">
+        </div>
+      </div>
+      <!-- YELLOW PIC -->
+      <div id="titlePicGallery" class="title-pic-gallery" style="display:none;">
+        <img id='titleBigGallery' class="title-big-gallery" src="media/titleYellow.png">
+      </div>
+      <!-- YELLOW PICS -  SMALL SCREENS -->
+      <div id="titlePicsPhone" class="title-pics-phone">
+        <img id="pic1Phone" class="pic1-phone"src="media/title-yellow1.png" alt="">
+        <img id="pic2Phone" class="pic2-phone" src="media/title-yellow2.png" alt="">
+      </div>
+    <div>
+      <p class="positioned">Trying to write</p>
+    </div>
+      <!--? VIDEO SECTION -->
+      <div class="video-gallery" id="videoGallery"style="display: none;">
+        <div class="video-container">
+          <video id='video1' class="video" src="media/night.mp4" poster="media/imgVideo2.jpg">
+          </video>
+          <div class="controls">
+            <div class="bar">
+              <div class="juice"></div>
+            </div>
+            <div class="buttons" >
+              <button id="buttons" class="playPause">
+                <div id="playContainer">
+                  <i id="play" class="play fas fa-play "></i>
+                </div>
+                <div id="pauseContainer" style="display:none;">          
+                  <i id="pause" class="pause fas fa-pause"></i>
+                </div>
+              </button>
+              <div id="stopButton" class="stop">
+              </div>
+            </div>        
+          </div>
+          <div id="nextButton" class="next-button">
+            <div id="iconArrowRight" class="arrow">
+              <i class="fa fa-long-arrow-alt-right "></i>
+            </div>
+          </div>
         </div>
       </div>
       <!-- YELLOW PIC -->
