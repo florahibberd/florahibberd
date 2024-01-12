@@ -376,9 +376,9 @@ padding-right: 30px;
   transition:all 1.5s ease;
 }
 .title-yellow-big{
-  margin: 0px;
+  margin: 30px;
   padding: 0px;
-  max-width: 100%;
+  max-width: 50%;
 }
 /* YELLOW PICS FOR SMALLER SCREENS ON BIO SECTION*/
 .title-pics-phone{
