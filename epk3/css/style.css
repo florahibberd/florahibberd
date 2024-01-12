@@ -3,6 +3,11 @@
   background: yellow;
 }
 
+#image
+{
+    width: 100%;
+}
+
 /* CSS VARIABLES */
 html, body {
   height: 100%;
