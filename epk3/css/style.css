@@ -7,7 +7,7 @@ html, body {
   color: rgb(0, 0, 0);
   letter-spacing:3px;
   box-sizing: border-box;
-  background-color: #6a6c8f ;
+  background-color: #eadac6 ;
   /* disable user select for elements */
   user-select: none;
   -webkit-user-select: none;
@@ -362,7 +362,7 @@ padding-right: 30px;
   width: 550px;
   z-index: 1;
   position: absolute;
-  margin-left: 20vw;
+  margin-left: 10vw;
   margin-top: 31.85px;
   background-size: cover;
   transition:all 1.5s ease;
@@ -376,20 +376,9 @@ padding-right: 30px;
   transition:all 1.5s ease;
 }
 .title-yellow-big{
-  margin: 30px;
+  margin: 0px;
   padding: 0px;
-  max-width: 45%;
-  position: relative;
-  bottom: 300px;
-  left: -200px;
-}
-.flora-hibberd-white{
-  margin: 30px;
-  padding: 0px;
-  max-width: 50%;
-  position: relative;
-  bottom: -125px;
-  left: 200px;
+  max-width: 100%;
 }
 /* YELLOW PICS FOR SMALLER SCREENS ON BIO SECTION*/
 .title-pics-phone{
@@ -548,7 +537,7 @@ padding-right: 30px;
 .buttons button:before{
   display: inline-block;
   font-size: 28px;
-  color: black;
+  color: white;
   -webkit-font-smoothing: antialiased;
 }
 /* CONTROLS ANIMATION */
@@ -1016,44 +1005,4 @@ textarea{
     grid-template-columns: repeat(4, calc(100vw/4));
     grid-template-rows: 305px 120px;
   }
-}
-
-html, body {
- margin: 0;
- padding: 0;
- }
-body {
- font-family: Lucida
- font-size: 100%;
- }
-h1 {
- font-size: 200%; 
- color: navy; 
- text-align: center;
- }
-h2 {
- font-size: 250%; 
- color: white; 
- margin-left: 50px;
- margin-right: 50px;
- }
-p,ul,li,td {
- font-size: 150%;
- color: white;
- margin-left: 60px;
- margin-right: 80px;
- }
-a:link {
- color: green;
- text-decoration: underline;
- }
-a:visited {
- color: gray;
- }
-a:hover {
- color: red;
- text-decoration: none;
-}
-a:active, a:focus {
- color: red;
 }
