@@ -368,7 +368,7 @@ padding-right: 30px;
 .bio-pic-big{
   width: 550px;
   z-index: 1;
-  position: absolute;
+  position: static;
   margin-left: 10vw;
   margin-top: 31.85px;
   background-size: cover;
