@@ -408,8 +408,16 @@ padding-right: 30px;
 }
 /* YELLOW PICS FOR SMALLER SCREENS ON BIO SECTION*/
 .title-pics-phone{
+   width: 40%;
+}
+
+}
+/* YELLOW PICS FOR SMALLER SCREENS ON BIO SECTION*/
+.flora-hibberd{
+  width: 20%;
   
 }
+
 
 /* ? MUSIC SECTION */
 .gallery-albums{
