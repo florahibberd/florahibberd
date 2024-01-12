@@ -1035,9 +1035,13 @@ h2 {
  font-size: 150%; 
  color: red; 
  padding-left: 15px;
+ margin-left: 50px;
+  margin-right: 50px;
  }
 p,ul,li,td {
- color: white; 
+ color: white;
+ margin-left: 50px;
+  margin-right: 50px;
  }
 a:link {
  color: green;
