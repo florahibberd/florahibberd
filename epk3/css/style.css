@@ -1,3 +1,8 @@
+.positioned {
+  position: static;
+  background: yellow;
+}
+
 /* CSS VARIABLES */
 html, body {
   height: 100%;
