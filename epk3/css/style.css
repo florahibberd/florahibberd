@@ -1035,13 +1035,13 @@ h2 {
  font-size: 250%; 
  color: white; 
  margin-left: 50px;
-  margin-right: 50px;
+ margin-right: 50px;
  }
 p,ul,li,td {
-  font-size: 150%
+ font-size: 150%
  color: white;
  margin-left: 60px;
-  margin-right: 80px;
+ margin-right: 80px;
  }
 a:link {
  color: green;
