@@ -379,7 +379,7 @@ padding-right: 30px;
   margin: 30px;
   padding: 0px;
   max-width: 45%;
-  position: absolute;
+  position: relative;
   bottom: 300px;
   left: -200px;
 }
@@ -387,7 +387,7 @@ padding-right: 30px;
   margin: 30px;
   padding: 0px;
   max-width: 50%;
-  position: absolute;
+  position: relative;
   bottom: -125px;
   left: 200px;
 }
