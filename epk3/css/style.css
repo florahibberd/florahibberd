@@ -366,9 +366,9 @@ padding-right: 30px;
   display: block;
 }
 .bio-pic-big{
-  width: 550px;
+  width: 650px;
   z-index: 1;
-  position: static;
+  position: relative;
   margin-left: 10vw;
   margin-top: 31.85px;
   background-size: cover;
@@ -711,7 +711,7 @@ textarea{
   .bio-pic-small {
     max-width:50%;
     margin-left: 10vw;
-    position: absolute;
+    position: relative;
   }
   .title-pic{
     margin: 380px 0 0 10vw;
@@ -857,6 +857,7 @@ textarea{
     height:80%;
     object-fit:cover;
     margin: 0;
+    margin-bottom: 40px;
   }
   .title-pic{
     display: none;
