@@ -361,7 +361,7 @@ padding-right: 30px;
 .bio-pic-big{
   width: 550px;
   z-index: 1;
-  position: relative;
+  position: absolute;
   margin-left: 20vw;
   margin-top: 31.85px;
   background-size: cover;
@@ -369,7 +369,7 @@ padding-right: 30px;
 }
 /* yellow title bio*/
 .title-pic{
-  position: relative;
+  position: absolute;
   z-index: 10;
   margin: 375px 0 0 15vw;
   padding-right: 50px;
@@ -379,7 +379,7 @@ padding-right: 30px;
   margin: 30px;
   padding: 0px;
   max-width: 45%;
-  position: relative;
+  position: absolute;
   bottom: 300px;
   left: -200px;
 }
@@ -387,7 +387,7 @@ padding-right: 30px;
   margin: 30px;
   padding: 0px;
   max-width: 50%;
-  position: relative;
+  position: absolute;
   bottom: -125px;
   left: 200px;
 }
