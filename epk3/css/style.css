@@ -376,7 +376,7 @@ padding-right: 30px;
 }
 /* yellow title bio*/
 .title-pic{
-  position: static;
+  position: absolute;
   z-index: 10;
   margin: 375px 0 0 15vw;
   padding-right: 450px;
@@ -679,7 +679,7 @@ textarea{
     max-width: 100%;  
   }
   .title-pic{
-    margin: 390px 0 0 15vw;
+    margin: -200px 0 0 15vw;
   }
 
   /* STONE ILLUSTRATION */
