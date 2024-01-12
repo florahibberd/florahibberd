@@ -398,9 +398,11 @@ padding-right: 30px;
     width: 60%;
 }
 .flora-hibberd-big{
-  margin: 0px;
-  padding: 0px;
-  max-width: 100%;
+    margin: -30px;
+    padding: 0px;
+    max-width: 100%;
+    position: relative;
+    margin-left: 20%;
 }
 /* YELLOW PICS FOR SMALLER SCREENS ON BIO SECTION*/
 .title-pics-phone{
