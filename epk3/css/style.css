@@ -756,7 +756,10 @@ textarea{
     margin-left: 10vw;
     position: relative;
   }
+
+  /*–––856px–––*/
   .title-pic{
+   margin:410px 0 0 15vw;
   }
   .title-pic-gallery{
     margin:410px 0 0 15vw;
@@ -906,7 +909,7 @@ textarea{
     margin-bottom: 40px;
   }
   .title-pic{
-    margin-top: -600p
+    margin: -570px 0 0 10vw;
   }
 
   /* MUSIC SECTION */
