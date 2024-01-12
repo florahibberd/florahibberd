@@ -25,7 +25,7 @@ html, body {
   color: rgb(0, 0, 0);
   letter-spacing:3px;
   box-sizing: border-box;
-  background-color: #898EFC ;
+  background-color: #BBBEFA ;
   /* disable user select for elements */
   user-select: none;
   -webkit-user-select: none;
