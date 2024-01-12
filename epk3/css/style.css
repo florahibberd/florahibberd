@@ -362,7 +362,7 @@ padding-right: 30px;
   width: 550px;
   z-index: 1;
   position: absolute;
-  margin-left: 10vw;
+  margin-left: 20vw;
   margin-top: 31.85px;
   background-size: cover;
   transition:all 1.5s ease;
@@ -378,7 +378,7 @@ padding-right: 30px;
 .title-yellow-big{
   margin: 30px;
   padding: 0px;
-  max-width: 50%;
+  max-width: 45%;
   position: relative;
   bottom: 300px;
   left: -200px;
