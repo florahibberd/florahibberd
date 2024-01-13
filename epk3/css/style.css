@@ -384,7 +384,7 @@ padding-right: 30px;
   display: block;
 }
 .bio-pic-big{
-  width: 650px;
+  width: 90%;
   z-index: 1;
   position: relative;
   margin-left: 10vw;
