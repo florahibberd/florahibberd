@@ -724,8 +724,7 @@ textarea{
     max-width: 100%;  
   }
   .title-pic{
- margin: -1023px 0 0vw;
-    margin-left: 40px;
+
     width: 60%;
   }
 
@@ -763,14 +762,13 @@ textarea{
 
   /*–––856px–––*/
   .title-pic{
-   margin:410px 0 0 15vw;
+
   }
   .title-pic-gallery{
     margin:410px 0 0 15vw;
      }
   .flora-hibberd{
-    margin-bottom: 90px;
-    margin-top: -20%;
+
   }
  
   /* MUSIC section */
@@ -913,7 +911,6 @@ textarea{
     margin-bottom: 40px;
   }
   .title-pic{
-    margin: -570px 0 0 10vw;
   }
 
   /* MUSIC SECTION */
