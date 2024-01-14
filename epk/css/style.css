@@ -36,15 +36,6 @@ width:100%;
 position:absolute;
 }
 
-}
-.image-full{
-    letter-spacing: 3px;
-    text-align: left;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 40px;
-}
-
 /* CSS VARIABLES */
 html, body {
   height: 100%;
@@ -234,14 +225,19 @@ scrollbar-width: none;  /* Firefox */
 }
 .texts-slidebar span{
   font-size: 30px;
-
+}
+.texts{
+    letter-spacing: 3px;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 140px;
+    margin-top: 50px;
+}
 .texts p{
   margin: 0;
 }
 .text-bio{
   font-size: 18px;
-  margin-left: 140px;
-  margin-right: 140px;
 }
 /* YELLOW UNDERLINE */
 strong{
