@@ -36,6 +36,15 @@ width:100%;
 position:absolute;
 }
 
+}
+.image-full{
+    letter-spacing: 3px;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+}
+
 /* CSS VARIABLES */
 html, body {
   height: 100%;
@@ -226,7 +235,7 @@ scrollbar-width: none;  /* Firefox */
 .texts-slidebar span{
   font-size: 30px;
 }
-.texts{
+.image-full{
     letter-spacing: 3px;
     text-align: left;
     margin-left: 100px;
