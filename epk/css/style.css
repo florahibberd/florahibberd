@@ -21,6 +21,14 @@
     margin: auto; /* make em equal */
 }
 
+.full-widht-image{
+    letter-spacing: 3px;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 40px;
+}
+
 .video-responsive { 
 overflow:hidden; 
 padding-bottom:56.25%; 
