@@ -1,4 +1,4 @@
-/* CSS VARIABLES */
+  /* CSS VARIABLES */
 html, body {
   height: 100%;
   margin: 0;
@@ -378,7 +378,7 @@ padding-right: 30px;
 .title-yellow-big{
   margin: 0px;
   padding: 0px;
-  max-width: 100%;
+  max-width: 80%;
 }
 /* YELLOW PICS FOR SMALLER SCREENS ON BIO SECTION*/
 .title-pics-phone{
