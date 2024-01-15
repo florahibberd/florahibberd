@@ -247,6 +247,8 @@ scrollbar-width: none;  /* Firefox */
 }
 .text-bio{
   font-size: 18px;
+  margin-bottom: 0;
+  bottom: 0;
 }
 /* YELLOW UNDERLINE */
 strong{
