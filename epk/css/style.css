@@ -11,7 +11,7 @@
 {
     width: 80%;
     margin-bottom: 0;
-    bottome: 0;
+    bottom: 0;
 }
 .your-centered-div {
     width: 560px; /* you have to have a size or this method doesn't work */
