@@ -21,12 +21,13 @@
     margin: auto; /* make em equal */
 }
 
-.full-widht-image{
+.full-width-image{
     letter-spacing: 3px;
     text-align: left;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 40px;
+    margin-bottom: 0;
 }
 
 .video-responsive { 
@@ -241,9 +242,13 @@ scrollbar-width: none;  /* Firefox */
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 50px;
+    margin-bottom: 0;
+    bottom: 0;
 }
 .texts p{
   margin: 0;
+  margin-bottom: 0;
+  bottom: 0;
 }
 .text-bio{
   font-size: 18px;
