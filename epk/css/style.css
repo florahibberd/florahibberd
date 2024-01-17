@@ -61,8 +61,8 @@ html, body {
   background-color: #898EF1 ;
   /* disable user select for elements */
   user-select: auto;
-  -webkit-user-select: none;
-  -moz-user-select: none;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
 }
 
 ul{
