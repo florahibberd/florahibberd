@@ -60,7 +60,7 @@ html, body {
   box-sizing: border-box;
   background-color: #898EF1 ;
   /* disable user select for elements */
-  user-select: none;
+  user-select: auto;
   -webkit-user-select: none;
   -moz-user-select: none;
 }
