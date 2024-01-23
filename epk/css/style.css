@@ -242,8 +242,8 @@ scrollbar-width: none;  /* Firefox */
 .texts{
     letter-spacing: 3px;
     text-align: left;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 50px;
     margin-bottom: 0;
     bottom: 0;
