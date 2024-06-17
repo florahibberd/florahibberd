@@ -2,93 +2,16 @@
 
 h1 { 
     color: green; 
-    color: rgba(0, 0, 0, 0.884);
-}
-.texts-slidebar span{
-  font-size: 30px;
-}
-.texts{
-    letter-spacing: 3px;
-    text-align: left;
-    margin-left: 130px;
-    margin-right: 130px;
-    margin-top: 50px;
-    margin-bottom: 0;
-    bottom: 0;
-}
-.texts p{
-  margin: 0;
-  margin-bottom: 0;
-  bottom: 0;
-}
-.text-bio{
-  font-size: 18px;
-  margin-bottom: 0;
-  bottom: 0;
-}
-
-    
 } 
   
 h3 { 
     color: blue; 
     font: 25px; 
     font-weight: 700; 
-
-    .slidebar-title{
-  color: rgba(0, 0, 0, 0.884);
-}
-.texts-slidebar span{
-  font-size: 30px;
-}
-.texts{
-    letter-spacing: 3px;
-    text-align: left;
-    margin-left: 130px;
-    margin-right: 130px;
-    margin-top: 50px;
-    margin-bottom: 0;
-    bottom: 0;
-}
-.texts p{
-  margin: 0;
-  margin-bottom: 0;
-  bottom: 0;
-}
-.text-bio{
-  font-size: 18px;
-  margin-bottom: 0;
-  bottom: 0;
-}
 } 
   
 .mybox1 { 
     display: none; 
-    .slidebar-title{
-  color: rgba(0, 0, 0, 0.884);
-}
-.texts-slidebar span{
-  font-size: 30px;
-}
-.texts{
-    letter-spacing: 3px;
-    text-align: left;
-    margin-left: 130px;
-    margin-right: 130px;
-    margin-top: 50px;
-    margin-bottom: 0;
-    bottom: 0;
-}
-.texts p{
-  margin: 0;
-  margin-bottom: 0;
-  bottom: 0;
-}
-.text-bio{
-  font-size: 18px;
-  margin-bottom: 0;
-  bottom: 0;
-}
 } 
   
 button { 
@@ -106,7 +29,6 @@ div,
 span { 
     font-size: 20px; 
 }
-
 ////////
 
 
