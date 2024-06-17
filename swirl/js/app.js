@@ -1,20 +1,23 @@
 /// READ MORE 
 
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
-}
+function changeReadMore() { 
+    const mycontent = 
+        document.getElementById('mybox1id'); 
+    const mybutton = 
+        document.getElementById('mybuttonid'); 
+    const span1 = document.getElementById("span1") 
+  
+    if (mycontent.style.display === 'none'
+        || mycontent.style.display === '') { 
+        mycontent.style.display = 'inline'; 
+        span1.style.display = "none"; 
+        mybutton.textContent = 'Read Less'; 
+    } else { 
+        mycontent.style.display = 'none'; 
+        mybutton.textContent = 'Read More'; 
+        span1.style.display = "inline"; 
+    } 
+} 
 
 // ! ************ VARIABLES  ********
 var mainWrapper = document.getElementById('mainWrapper');
