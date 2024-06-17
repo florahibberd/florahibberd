@@ -1140,9 +1140,19 @@ textarea{
 
 // READ MORE
 
+
+/* style.css*/
+h1 { 
+    color: green; 
 } 
   
-.readmore1 { 
+h3 { 
+    color: blue; 
+    font: 25px; 
+    font-weight: 700; 
+} 
+  
+.mybox1 { 
     display: none; 
 } 
   
