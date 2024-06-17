@@ -2,16 +2,37 @@
 
 h1 { 
     color: green; 
+     letter-spacing: 3px;
+    text-align: left;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    bottom: 0;
 } 
   
 h3 { 
     color: blue; 
     font: 25px; 
     font-weight: 700; 
+     letter-spacing: 3px;
+    text-align: left;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    bottom: 0;
 } 
   
 .mybox1 { 
     display: none; 
+     letter-spacing: 3px;
+    text-align: left;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    bottom: 0;
 } 
   
 button { 
@@ -292,6 +313,8 @@ scrollbar-width: none;  /* Firefox */
   margin-bottom: 0;
   bottom: 0;
 }
+
+
 /* YELLOW UNDERLINE */
 strong{
   text-decoration: underline;
