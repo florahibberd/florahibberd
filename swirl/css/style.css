@@ -1137,3 +1137,27 @@ textarea{
     max-width: 100%;
   }
 }
+
+// READ MORE
+
+} 
+  
+.readmore1 { 
+    display: none; 
+} 
+  
+button { 
+    padding: 10px; 
+    font-size: 20px; 
+    font-weight: 700; 
+    color: rgb(5, 14, 5); 
+    border: none; 
+    border-radius: 30px; 
+    background-color: rgb(182, 215, 182); 
+    margin-top: 20px; 
+} 
+  
+div, 
+span { 
+    font-size: 20px; 
+}
