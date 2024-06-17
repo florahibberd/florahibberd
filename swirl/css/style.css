@@ -424,7 +424,7 @@ font-size: 1.0rem;
 text-transform: uppercase;
 padding: 0;
 text-align: center;
-letter-spacing:5px;
+letter-spacing:3px;
 }
 .navbar li{
 padding-right: 30px;
@@ -1102,7 +1102,7 @@ textarea{
     text-transform: uppercase;
     padding: 0;
     text-align: center;
-    letter-spacing:6px;
+    letter-spacing:3px;
   }
   .navbar li{
     padding: 0;
