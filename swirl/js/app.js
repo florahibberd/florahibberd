@@ -16,7 +16,8 @@ function changeReadMore() {
         mycontent.style.display = 'none'; 
         mybutton.textContent = 'Read More'; 
         span1.style.display = "inline";
-        window.location.hash = '#mainBio' behavior: 'smooth' 
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        // window.location.hash = '#mainBio' behavior: 'smooth' 
         
     } 
 } 
