@@ -16,7 +16,10 @@ function changeReadMore() {
         mycontent.style.display = 'none'; 
         mybutton.textContent = 'Read More'; 
         span1.style.display = "inline";
-        window.scrollTo(0,0)
+        window.setTimeout(function(){
+            window.scrollTo(0,0)    
+        },1000)
+        
     } 
 } 
 
