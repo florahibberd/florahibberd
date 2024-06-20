@@ -13,15 +13,16 @@ function changeReadMore() {
         span1.style.display = "none"; 
         mybutton.textContent = 'Read Less';
     } else { 
-        /*mycontent.style.display = 'none'; 
+        mycontent.style.display = 'none'; 
         mybutton.textContent = 'Read More'; 
         span1.style.display = "inline";
         console.log('test');
+        window.scrollTo(0,0);
         window.setTimeout(function(){
             
-            window.scrollTo(0,0)    
+                
         },1000)
-        */
+        
     } 
 } 
 
@@ -1021,23 +1022,4 @@ videoGallery.addEventListener("mouseout", function() {
   circleCursor.style.backgroundColor = "rgba(0, 0, 0, 0.712)";
 });
 
-// READ MORE
 
-function changeReadMore() { 
-    const mycontent = 
-        document.getElementById('mybox1id'); 
-    const mybutton = 
-        document.getElementById('mybuttonid'); 
-    const span1 = document.getElementById("span1") 
-  
-    if (mycontent.style.display === 'none'
-        || mycontent.style.display === '') { 
-        mycontent.style.display = 'inline'; 
-        span1.style.display = "none"; 
-        mybutton.textContent = 'Read Less'; 
-    } else { 
-        mycontent.style.display = 'none'; 
-        mybutton.textContent = 'Read More'; 
-        span1.style.display = "inline"; 
-    } 
-} 
