@@ -591,10 +591,8 @@ video:hover{
   position: absolute;
   width: 460px;
   height: 400px;
-  margin: 31.85px 0 0 15vw;
+  margin: 12% 65% 60px;
   transition:all 1.5s ease;
-  margin-left: 65%
-  margin-top: 10%
 } 
 input{
   background: transparent;
