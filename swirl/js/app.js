@@ -13,7 +13,7 @@ function changeReadMore() {
         span1.style.display = "none"; 
         mybutton.textContent = 'Read Less';
     } else { 
-        mycontent.style.display = 'none'; 
+        /*mycontent.style.display = 'none'; 
         mybutton.textContent = 'Read More'; 
         span1.style.display = "inline";
         console.log('test');
@@ -21,7 +21,7 @@ function changeReadMore() {
             
             window.scrollTo(0,0)    
         },1000)
-        
+        */
     } 
 } 
 
