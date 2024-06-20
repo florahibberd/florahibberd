@@ -11,11 +11,12 @@ function changeReadMore() {
         || mycontent.style.display === '') { 
         mycontent.style.display = 'inline'; 
         span1.style.display = "none"; 
-        mybutton.textContent = 'Read Less'; 
+        mybutton.textContent = 'Read Less';
     } else { 
         mycontent.style.display = 'none'; 
         mybutton.textContent = 'Read More'; 
-        span1.style.display = "inline"; 
+        span1.style.display = "inline";
+        window.scrollTo(0,0)
     } 
 } 
 
