@@ -480,9 +480,11 @@ padding-right: 30px;
 /* ? BIO SECTION */
 .bio-pic-container-small{
   display: none;
+  background-color: #4B424D
 }
 .bio-pic-container-big{
   display: block;
+  background-color: #4B424D
 }
 .bio-pic-big{
   width: 45%;
