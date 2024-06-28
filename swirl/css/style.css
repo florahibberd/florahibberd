@@ -108,7 +108,9 @@ height:0;
 .video-responsive iframe {
 left:0;
 top:0; 
-position:relative;
+height:100%;
+width:100%;
+position:absolute;
 }
 
 /* CSS VARIABLES */
