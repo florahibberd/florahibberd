@@ -399,7 +399,7 @@ padding-right: 30px;
 #bigBox{
   grid-column: span 1;
   grid-row: span 2;
-  background-image: url('../media/cover-leave-clean.jpg');
+  background-image: url('../media/cover-swirl.png');
   background-size: cover;
   background-position: top ;
   background-repeat: no-repeat;
@@ -424,7 +424,7 @@ padding-right: 30px;
 #bottomLeftBox{
   grid-column: span 1;
   grid-row: span 1;
-  background-image: url('../media/cover-archipelago.jpg');
+  background-image: url('../media/cover-leave.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
