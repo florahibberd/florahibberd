@@ -424,7 +424,7 @@ padding-right: 30px;
 #bottomLeftBox{
   grid-column: span 1;
   grid-row: span 1;
-  background-image: url('../media/cover-leave.jpg');
+  background-image: url('../media/cover-leave-clean.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
