@@ -387,65 +387,23 @@ padding-right: 30px;
 
 /* ? MUSIC SECTION */
 .gallery-albums{
-  margin: 5vw 0 0 10vw;
+  margin: 4vw 0px 0px 8vw;
   position: absolute;
-  grid-column: span 1;
-  grid-row: span 1;
-  display: grid;
-  grid-template-columns: 400px 180px 180px;
-  grid-template-rows: 180px 180px;
-  transition:all 1.5s ease;
+  transition: all 0s;
+  z-index: 9;
 }
-#bigBox{
-  grid-column: span 1;
-  grid-row: span 2;
-  background-image: url('../media/cover-headlights.jpg');
-  background-size: cover;
-  background-position: top ;
-  background-repeat: no-repeat;
+.video-container{
+  z-index: 9;
+  width: 100%;
+  max-width: 640px;
+  position: relative;
+  overflow: hidden;
 }
-#topLeftBox{
-  grid-column: span 1;
-  grid-row: span 1;
-  background-image: url('../media/cover-night-clean.jpg');
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
-}
-#topRightBox{
-  grid-column: span 1;
-  grid-row: span 1;
-  background-image: url('../media/cover-healing-clean.jpg');
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
-}
+.video{
+  z-index: 9;
+  width: 100%;
+  transition: all 0s;
 
-#bottomLeftBox{
-  grid-column: span 1;
-  grid-row: span 1;
-  background-image: url('../media/cover-headlights-clean.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-#bottomRightBox{
-  grid-column: span 1;
-  grid-row: span 1;
-  background-image: url('../media/cover-shine-clean.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-/* BY DEFAULT THE PICS HAVE OPACITY BESIDES WHEN HOVERED */
-#topLeftBox,#bottomLeftBox, #topRightBox, #bottomRightBox{
-  filter: grayscale(50%);
-  opacity: 0.7;
-}
-#topLeftBox:hover, #bottomLeftBox:hover, #topRightBox:hover, #bottomRightBox:hover{
-  filter: grayscale(0%);
-  opacity: 1;
-}
 /* title yellow gallery */
 .title-pic-gallery{
   position: absolute;
