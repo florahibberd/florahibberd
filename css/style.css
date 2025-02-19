@@ -316,7 +316,6 @@ padding-right: 30px;
 }
 #decorationVideo,
 #decorationContact,
-#decorationTourdates,
 #decorationMusic{
   padding-top: 20px ;
   padding-bottom: 20px ;
@@ -726,13 +725,6 @@ textarea{
     grid-row: span 1;
   }
 
-/* TOUR DATES */
-  .tourdates{
-  z-index: 9;
-  width: 100%;
-  transition: all 0s;
-}
-  
   /* VIDEO SECTION */
   .video-gallery{
     margin: 6vw 0px 0px 8vw;
