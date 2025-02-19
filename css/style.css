@@ -2,7 +2,6 @@
 html, body {
   height: 100%;
   margin: 0;
-  margin-bottom: 100px;
   padding: 0;
   font-family: 'Barlow Semi Condensed', sans-serif;
   color: rgb(0, 0, 0);
@@ -364,7 +363,7 @@ padding-right: 30px;
   z-index: 1;
   position: absolute;
   margin-left: 10vw;
-  margin-top: -40px;
+  margin-top: 31.85px;
   background-size: cover;
   transition:all 1.5s ease;
 }
@@ -400,7 +399,7 @@ padding-right: 30px;
 #bigBox{
   grid-column: span 1;
   grid-row: span 2;
-  background-image: url('../media/cover-swirl.png');
+  background-image: url('../media/cover-leave-clean.jpg');
   background-size: cover;
   background-position: top ;
   background-repeat: no-repeat;
@@ -425,7 +424,7 @@ padding-right: 30px;
 #bottomLeftBox{
   grid-column: span 1;
   grid-row: span 1;
-  background-image: url('../media/cover-leave-clean.jpg');
+  background-image: url('../media/cover-archipelago.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
