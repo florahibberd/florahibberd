@@ -704,6 +704,42 @@ function clickMusic(){
   toggleStopButton();
   checkScrollHeight();
 }
+function clickVideo(){
+  navUnderline(decorationVideo,decorationMusic,decorationContact,decorationBio);
+  // displaySlideTexts
+  displaySection('block',textLeave2,textsContainerAlbum,textBio,textLet,textContact,textShenandoah);
+  // displayMedia
+  displayMedia('grid',videoGallery,galleryAlbums,bioPicContainerSmall,bioPicContainerBig,contactSection);
+  // displayIlustrations
+  if(screenS.matches || screenXS.matches){
+    displaySection('block',plate,ampContainerPhone, ampContainerSlide,stone,stone,stone);  
+  }else{
+    displaySection('none',plate,ampContainerSlide, ampContainerPhone,stone,stone,stone);
+  }
+  displaySlideTitle(slidebarSideTitleLyrics,slidebarSideTitleBio);
+  // displayTitlePics
+  displaySection('block',titlePicVideo,titlePicGallery,titlePic,titlePicsPhone,titlePicsPhone,titlePicsPhone);
+  setsGrid(
+    '180px 300px auto 100px',
+    '80px 70vw auto 100px',
+    '90px minmax(550px, calc(100vh - 90px))',
+    '90px minmax(550px, calc(100vh - 90px))',
+    'auto', 'auto','center','flex-start');
+  // Change the source image
+  video.src = 'media/night.mp4';
+  video.poster = 'media/imgVideo2.jpg';
+  pauseAudio(audioStone);
+  pauseAudio(audioAmpPhone);
+  stoneAnimation('none');
+  resetsPlateAnimation();
+  checkScrollHeight();
+  if(slidebar.classList.contains('clickOpen')==false){
+    pushbackMedia();
+  }else{
+    pushMedia();
+  }
+
+}
 function clickContact(){ 
   navUnderline(decorationContact,decorationVideo,decorationMusic,decorationBio);
   // displaySlideTexts
