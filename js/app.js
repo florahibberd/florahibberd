@@ -27,6 +27,7 @@ var textHealing = document.getElementById('textHealing');
 //? navbar
 var decorationVideo = document.getElementById('decorationVideo');
 var decorationBio = document.getElementById('decorationBio');
+var decorationTourdates = document.getElementById('decorationTourdates');
 var decorationMusic = document.getElementById('decorationMusic');
 var decorationContact = document.getElementById('decorationContact');
 // ?main content
