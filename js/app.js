@@ -27,7 +27,6 @@ var textHealing = document.getElementById('textHealing');
 //? navbar
 var decorationVideo = document.getElementById('decorationVideo');
 var decorationBio = document.getElementById('decorationBio');
-var decorationTourdates = document.getElementById('decorationTourdates');
 var decorationMusic = document.getElementById('decorationMusic');
 var decorationContact = document.getElementById('decorationContact');
 // ?main content
@@ -704,75 +703,6 @@ function clickMusic(){
   stoneAnimation('none');
   toggleStopButton();
   checkScrollHeight();
-}
-function clickTourdates(){
-  navUnderline(decorationTourdates,decorationContact,decorationBio,decorationVideo);
-  // displaySlideTexts
-  displaySection('block',textsContainerAlbum,textBio,textLet,textContact,textLeave2,textShenandoah);
-  // displayMedia
-  displayMedia('grid',galleryAlbums,bioPicContainerSmall,bioPicContainerBig,videoGallery,contactSection);
-  // displayIlustrations
-  if(screenS.matches || screenXS.matches){
-    displaySection('block',ampContainerPhone, ampContainerSlide,plate,stone,stone,stone);  
-  }else{
-    displaySection('block',ampContainerSlide, ampContainerPhone,plate,stone,stone,stone);
-  }
-  displaySlideTitle(slidebarSideTitleLyrics,slidebarSideTitleBio);
-  // displayTitlePics
-  displaySection('block',titlePicGallery,titlePic,titlePicsPhone,titlePicVideo,titlePicVideo,titlePicVideo);
-  if(slidebar.classList.contains('clickOpen')==false){
-    pushbackMedia();
-  }else{
-    pushMedia();
-  }
-  videoGallery.style.transition = 'all 1.5s ease';
-  setsGrid(
-    '180px 500px auto 100px',
-    '80px 600px auto 100px',
-    '90px minmax(550px, calc(100vh - 90px))',
-    '90px minmax(550px, calc(100vh - 90px))',
-    'auto', 'auto','flex-start','flex-start');
-  defaultMusicGallery('cover-headlights');
-  pauseAudio(audioStone);
-  stoneAnimation('none');
-  toggleStopButton();
-  checkScrollHeight();
-}
-function clickVideo(){
-  navUnderline(decorationVideo,decorationMusic,decorationContact,decorationBio);
-  // displaySlideTexts
-  displaySection('block',textLeave2,textsContainerAlbum,textBio,textLet,textContact,textShenandoah);
-  // displayMedia
-  displayMedia('grid',videoGallery,galleryAlbums,bioPicContainerSmall,bioPicContainerBig,contactSection);
-  // displayIlustrations
-  if(screenS.matches || screenXS.matches){
-    displaySection('block',plate,ampContainerPhone, ampContainerSlide,stone,stone,stone);  
-  }else{
-    displaySection('none',plate,ampContainerSlide, ampContainerPhone,stone,stone,stone);
-  }
-  displaySlideTitle(slidebarSideTitleLyrics,slidebarSideTitleBio);
-  // displayTitlePics
-  displaySection('block',titlePicVideo,titlePicGallery,titlePic,titlePicsPhone,titlePicsPhone,titlePicsPhone);
-  setsGrid(
-    '180px 300px auto 100px',
-    '80px 70vw auto 100px',
-    '90px minmax(550px, calc(100vh - 90px))',
-    '90px minmax(550px, calc(100vh - 90px))',
-    'auto', 'auto','center','flex-start');
-  // Change the source image
-  video.src = 'media/night.mp4';
-  video.poster = 'media/imgVideo2.jpg';
-  pauseAudio(audioStone);
-  pauseAudio(audioAmpPhone);
-  stoneAnimation('none');
-  resetsPlateAnimation();
-  checkScrollHeight();
-  if(slidebar.classList.contains('clickOpen')==false){
-    pushbackMedia();
-  }else{
-    pushMedia();
-  }
-
 }
 function clickContact(){ 
   navUnderline(decorationContact,decorationVideo,decorationMusic,decorationBio);
