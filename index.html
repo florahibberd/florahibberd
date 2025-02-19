@@ -296,16 +296,17 @@
         <img id='titleBig'class="title-yellow-big" src="media/titleYellow.png">
       </div>
       <!--? MUSIC SECTION -->
-         <div class="video-container">
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/DtmqwPA0bHA?si=H2hUPbpvQnFGmH-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-           <br><iframe width="560" height="315" src="https://www.youtube.com/embed/DtmqwPA0bHA?si=H2hUPbpvQnFGmH-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-           <br><iframe width="560" height="315" src="https://www.youtube.com/embed/DtmqwPA0bHA?si=H2hUPbpvQnFGmH-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-           <br><iframe width="560" height="315" src="https://www.youtube.com/embed/DtmqwPA0bHA?si=H2hUPbpvQnFGmH-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-           <br><iframe width="560" height="315" src="https://www.youtube.com/embed/DtmqwPA0bHA?si=H2hUPbpvQnFGmH-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-           <br><iframe width="560" height="315" src="https://www.youtube.com/embed/DtmqwPA0bHA?si=H2hUPbpvQnFGmH-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-           <br><iframe width="560" height="315" src="https://www.youtube.com/embed/DtmqwPA0bHA?si=H2hUPbpvQnFGmH-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
-    </div>
+      <div id="galleryAlbums" class="gallery-albums" style="display: none;">
+        <div id="bigBox" class="cover-headlights">
+        </div>
+        <div id="topLeftBox" class="cover-leave">     
+        </div>
+        <div id="topRightBox" class="cover-healing">
+        </div>
+        <div id="bottomLeftBox" class="cover-headlights">
+        </div>  
+        <div id="bottomRightBox" class="cover-shine">
+        </div>
       </div>
       <!-- YELLOW PIC -->
       <div id="titlePicGallery" class="title-pic-gallery" style="display:none;">
@@ -318,13 +319,39 @@
       </div>
       <!--? VIDEO SECTION -->
 
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/DtmqwPA0bHA?si=H2hUPbpvQnFGmH-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <div class="video-gallery" id="videoGallery"style="display: none;">
         <div class="video-container">
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/DtmqwPA0bHA?si=H2hUPbpvQnFGmH-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <video id='video1' class="video" src="media/night.mp4" poster="media/imgVideo2.jpg">
+          </video>
+          <div class="controls">
+            <div class="bar">
+              <div class="juice"></div>
+            </div>
+            <div class="buttons" >
+              <button id="buttons" class="playPause">
+                <div id="playContainer">
+                  <i id="play" class="play fas fa-play "></i>
                 </div>
+                <div id="pauseContainer" style="display:none;">          
+                  <i id="pause" class="pause fas fa-pause"></i>
+                </div>
+              </button>
+              <div id="stopButton" class="stop">
+              </div>
+            </div>        
+          </div>
+          <div id="nextButton" class="next-button">
+            <div id="iconArrowRight" class="arrow">
+              <i class="fa fa-long-arrow-alt-right "></i>
+            </div>
+          </div>
         </div>
       </div>
-
+      <!-- YELLOW PIC -->
+      <div id="titlePicVideo" class="title-pic-video" style="display:none;">
+        <img id='titleBigVideo' class="title-big-video" src="media/titleYellow.png">
+      </div>
       <!--? CONTACT SECTION -->
       <form action="POST" data-netlify="true" id="contactSection" class="contact-container" style="display:none;">
         <div class="contact-name">
