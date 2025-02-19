@@ -705,6 +705,39 @@ function clickMusic(){
   toggleStopButton();
   checkScrollHeight();
 }
+function clickTourdates(){
+  navUnderline(decorationTourdates,decorationContact,decorationBio,decorationVideo);
+  // displaySlideTexts
+  displaySection('block',textsContainerAlbum,textBio,textLet,textContact,textLeave2,textShenandoah);
+  // displayMedia
+  displayMedia('grid',galleryAlbums,bioPicContainerSmall,bioPicContainerBig,videoGallery,contactSection);
+  // displayIlustrations
+  if(screenS.matches || screenXS.matches){
+    displaySection('block',ampContainerPhone, ampContainerSlide,plate,stone,stone,stone);  
+  }else{
+    displaySection('block',ampContainerSlide, ampContainerPhone,plate,stone,stone,stone);
+  }
+  displaySlideTitle(slidebarSideTitleLyrics,slidebarSideTitleBio);
+  // displayTitlePics
+  displaySection('block',titlePicGallery,titlePic,titlePicsPhone,titlePicVideo,titlePicVideo,titlePicVideo);
+  if(slidebar.classList.contains('clickOpen')==false){
+    pushbackMedia();
+  }else{
+    pushMedia();
+  }
+  videoGallery.style.transition = 'all 1.5s ease';
+  setsGrid(
+    '180px 500px auto 100px',
+    '80px 600px auto 100px',
+    '90px minmax(550px, calc(100vh - 90px))',
+    '90px minmax(550px, calc(100vh - 90px))',
+    'auto', 'auto','flex-start','flex-start');
+  defaultMusicGallery('cover-headlights');
+  pauseAudio(audioStone);
+  stoneAnimation('none');
+  toggleStopButton();
+  checkScrollHeight();
+}
 function clickVideo(){
   navUnderline(decorationVideo,decorationMusic,decorationContact,decorationBio);
   // displaySlideTexts
